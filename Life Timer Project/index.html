@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Timer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" defer></script>
+
+</head>
+<body>
+    <div class="background-video-container">
+        <video autoplay muted loop class="background-video">
+          <source src="./images/mountain2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <!-- Content goes here -->
+        
+        <div class="container">
+           <div id="initial" class="content">
+            <h1>
+                Kindly! Enter Your Date of Birth
+            </h1>
+            <hr>
+           </div>
+           <div id="afterDobButton" class="content">
+                <div class="center">
+                    <h1>
+                        Life journey you have covered!
+                    </h1>
+                    <hr>
+        
+                        <div class="time-container">
+                            <h2>
+                                <div id="year">0</div>
+                                Year
+                            </h2>
+                            <h2>
+                                <div id="month">0</div>
+                                Month
+                            </h2>
+                            <h2>
+                                <div id="day">0</div>
+                                Day
+                            </h2>
+                            
+                        </div>
+                </div>
+           </div>
+
+           
+           <div class="setting">
+           
+
+            <div id="settingContent" class="settings-content">
+               
+                <i id="icon" class="fa-solid fa-calendar-days"></i>
+
+                <input type="date" id="dobInput" />
+
+                <button id="button">Add DOB</button>
+            </div>
+            </div>
+        </div>
+
+       
+     </div>
+      
+     <script src="script.js"></script>
+</body>
+</html>

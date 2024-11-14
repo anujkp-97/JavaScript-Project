@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="background">
+        <div class="box">
+            <h2>Score -> <span id="score" >0</span> </h2>
+            <h3 id="question">Q. What is 4 multiply by 2?</h3>
+            <form id="questionForm" onsubmit="checkAnswer(event)" >
+                <input required  type="number" name = "answer" id="answerInput" />
+                <button class="primary-btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

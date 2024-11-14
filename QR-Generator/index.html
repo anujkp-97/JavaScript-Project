@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <section class="upper">
+                <h1>QR Code Generator</h1>
+                <p>Paste text to create QR</p>
+            </section>
+
+            <form id="qrForm" action="">
+                <input id="qrInputText" type="text" name="qrText" placeholder="Enter Text Here...">
+                <button id="generateBtn" type="submit">Generate QR Code</button>
+                
+            </form>
+            <section id="qrContainer" class="qr_container">
+                <img id="qrImage" src="./qr.webp" alt="QR Image">
+            </section>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

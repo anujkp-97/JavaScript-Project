@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Oswald", sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-image: linear-gradient(to top left, #6a9db3, #204349);
+}
+.profileHeading{
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.search{
+    display: flex;
+    width: 50%;
+    gap: 4px;
+    max-width: 60rem;
+    height: 40px;
+}
+
+.search input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: large;
+}
+
+.search input:focus-visible{
+    outline: 1px solid purple;
+}
+
+.primary-btn{
+    background-color: rgb(6, 184, 95);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-family: "Oswald";
+    font-size: large;
+}
+
+.primary-btn:hover{
+    background-color: #1E5128;
+    color: white;
+    cursor: pointer;
+    /* transform:translateX(4px); */
+   
+}
+
+.primary-btn:active{
+    background-color:#1b252c;
+}
+
+/* for card */
+
+.profile-box{
+    padding: 1rem 2rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,1);
+    background-color: rgb(235, 235, 211);
+    width: 100%;
+    max-width: 78rem;
+    border-radius: 10px;
+
+}
+.profile-box:hover{
+    transform: rotate(-2deg) scale(1.01);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-section button{
+    align-self: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left h1{
+    font-size: 1.6rem;
+}
+
+.avatar{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.avatar img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about{
+    margin: 1rem;
+}
+
+.status{
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    align-self: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px;
+}
