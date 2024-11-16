@@ -1,6 +1,6 @@
-# HTML CSS JAVASCRIPT 10 PRACTICE PROJECTS - Password Generator App
+# HTML CSS JAVASCRIPT 11 PRACTICE PROJECTS 
 
-## Projects that we are going to build in this complete practice course
+## Project Details are below:-
 
 - Project 1 Dark Light Background Change
 - Project 2 Expense Tracker App
